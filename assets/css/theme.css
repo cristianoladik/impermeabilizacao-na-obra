@@ -25,7 +25,7 @@ html,body{ background:#000; }
   color:var(--gold1); pointer-events:none; }
 
 /* ---------- CAPA ---------- */
-.capa{ text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.capa{ height:100%; text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center; }
 .capa .kicker{ letter-spacing:.42em; font-size:22px; font-weight:700; color:var(--gold1);
   text-transform:uppercase; margin-bottom:22px; }
 .capa img.logo{ height:250px; margin-bottom:32px; }
