@@ -28,8 +28,8 @@ html,body{ background:#000; }
 .capa{ text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center; }
 .capa .kicker{ letter-spacing:.42em; font-size:22px; font-weight:700; color:var(--gold1);
   text-transform:uppercase; margin-bottom:22px; }
-.capa img.logo{ height:230px; margin-bottom:30px; }
-.capa h1{ font-size:84px; font-weight:900; line-height:1.02; text-transform:uppercase;
+.capa img.logo{ height:250px; margin-bottom:32px; }
+.capa h1{ font-size:94px; font-weight:900; line-height:1.02; text-transform:uppercase;
   color:#fff; margin:0; }
 .capa h1 .g{ background:linear-gradient(180deg,var(--gold1),var(--gold2));
   -webkit-background-clip:text; background-clip:text; color:transparent; }
@@ -38,7 +38,7 @@ html,body{ background:#000; }
 .capa .sub{ font-size:30px; font-weight:400; color:#d7d7d7; max-width:900px; line-height:1.35; }
 
 /* ---------- SLIDE DE CONTEUDO ---------- */
-.conteudo{ display:flex; flex-direction:column; height:100%; padding:24px 8px 8px; }
+.conteudo{ display:flex; flex-direction:column; height:100%; padding:26px 30px 14px; }
 .head{ display:flex; align-items:center; gap:24px; margin-bottom:14px; }
 .head img{ height:58px; }
 .head .sep{ width:3px; height:48px; border-radius:2px;
@@ -49,25 +49,25 @@ html,body{ background:#000; }
 .tag{ display:inline-block; background:linear-gradient(90deg,var(--gold1),var(--gold2)); color:#000;
   font-weight:800; font-size:19px; letter-spacing:.12em; padding:7px 20px; border-radius:30px;
   text-transform:uppercase; margin:6px 0 8px; }
-.conteudo h2{ font-size:62px; font-weight:900; line-height:1.02; text-transform:uppercase; color:#fff; margin:0; }
+.conteudo h2{ font-size:70px; font-weight:900; line-height:1.02; text-transform:uppercase; color:#fff; margin:0; }
 .conteudo h2 .g{ background:linear-gradient(180deg,var(--gold1),var(--gold2));
   -webkit-background-clip:text; background-clip:text; color:transparent; }
 
-.cols{ flex:1; display:flex; gap:48px; align-items:center; margin-top:14px; }
-.col-txt{ flex:1.25; }
-.col-img{ flex:.95; display:flex; align-items:center; justify-content:center; }
+.cols{ flex:1; display:flex; gap:54px; align-items:center; margin-top:16px; }
+.col-txt{ flex:1.7; }
+.col-img{ flex:.8; display:flex; align-items:center; justify-content:center; }
 .card{ background:radial-gradient(120% 120% at 50% 20%,#161616,#0a0a0a);
   border:2px solid rgba(255,210,63,.35); border-radius:22px; padding:30px;
   display:flex; align-items:center; justify-content:center; box-shadow:0 16px 46px rgba(0,0,0,.6); }
-.card img{ max-height:380px; max-width:100%; }
+.card img{ max-height:440px; max-width:100%; }
 
-.lbl{ font-size:26px; font-weight:800; color:var(--gold1); letter-spacing:.03em;
-  margin:18px 0 10px; text-transform:uppercase; }
+.lbl{ font-size:29px; font-weight:800; color:var(--gold1); letter-spacing:.03em;
+  margin:20px 0 10px; text-transform:uppercase; }
 .lbl:first-child{ margin-top:0; }
-.reveal .conteudo p.def{ font-size:28px; line-height:1.4; color:var(--txt); margin:0; }
+.reveal .conteudo p.def{ font-size:32px; line-height:1.4; color:var(--txt); margin:0; }
 .reveal .conteudo ul{ list-style:none; margin:0; }
-.reveal .conteudo li{ font-size:27px; line-height:1.38; color:var(--txt);
-  padding-left:36px; position:relative; margin-bottom:12px; }
+.reveal .conteudo li{ font-size:31px; line-height:1.38; color:var(--txt);
+  padding-left:40px; position:relative; margin-bottom:13px; }
 .reveal .conteudo li:before{ content:""; position:absolute; left:0; top:12px; width:16px; height:16px;
   border-radius:4px; transform:rotate(45deg); background:linear-gradient(135deg,var(--gold1),var(--gold2)); }
 
