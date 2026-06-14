@@ -38,6 +38,14 @@ html,body{ background:#000; }
 .capa .sub{ font-size:30px; font-weight:400; color:#d7d7d7; max-width:900px; line-height:1.35; }
 
 /* ---------- ENCERRAMENTO / CTA ---------- */
+.encerramento{ position:relative; }
+.encerramento .btn-pdf{ position:absolute; top:34px; left:50%; transform:translateX(-50%);
+  display:inline-flex; align-items:center; gap:12px; z-index:70;
+  background:linear-gradient(180deg,#2ecc71,#1f9d52); color:#fff;
+  font-size:27px; font-weight:800; letter-spacing:.03em; text-transform:uppercase;
+  text-decoration:none; padding:15px 38px; border-radius:40px;
+  border:2px solid rgba(255,255,255,.18); box-shadow:0 12px 30px rgba(46,204,113,.38); }
+.encerramento .btn-pdf:hover{ filter:brightness(1.08); }
 .encerramento img.logo{ height:170px; margin-bottom:24px; }
 .encerramento h1{ font-size:78px; }
 .encerramento .sub{ margin-bottom:34px; }
