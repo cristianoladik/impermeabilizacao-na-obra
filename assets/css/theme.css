@@ -37,6 +37,20 @@ html,body{ background:#000; }
   background:linear-gradient(90deg,var(--gold1),var(--gold2)); }
 .capa .sub{ font-size:30px; font-weight:400; color:#d7d7d7; max-width:900px; line-height:1.35; }
 
+/* ---------- ENCERRAMENTO / CTA ---------- */
+.encerramento img.logo{ height:170px; margin-bottom:24px; }
+.encerramento h1{ font-size:78px; }
+.encerramento .sub{ margin-bottom:34px; }
+.cta{ max-width:980px; border:2px solid rgba(255,210,63,.45); border-radius:22px;
+  background:radial-gradient(120% 140% at 50% 0%,rgba(255,210,63,.10),rgba(10,10,10,.4));
+  padding:26px 40px 30px; }
+.cta .cta-tit{ font-size:34px; font-weight:900; text-transform:uppercase; letter-spacing:.04em;
+  background:linear-gradient(180deg,var(--gold1),var(--gold2));
+  -webkit-background-clip:text; background-clip:text; color:transparent; margin-bottom:8px; }
+.cta .cta-txt{ font-size:27px; color:#e3e3e3; line-height:1.34; margin-bottom:16px; }
+.cta .cta-handle{ display:inline-block; background:linear-gradient(90deg,var(--gold1),var(--gold2));
+  color:#000; font-weight:900; font-size:28px; letter-spacing:.04em; padding:10px 30px; border-radius:30px; }
+
 /* ---------- SLIDE DE CONTEUDO ---------- */
 /* BORDA MINIMA PADRAO DOS 4 LADOS (safe area): topo 40, laterais 56, base 72.
    A base e maior para o conteudo nunca encostar no rodape @cristianoladik. */
