@@ -67,6 +67,14 @@ html,body{ background:#000; }
 .lbl{ font-size:27px; font-weight:800; color:var(--gold1); letter-spacing:.03em;
   margin:18px 0 9px; text-transform:uppercase; }
 .lbl:first-child{ margin-top:0; }
+/* tags de caracteristica do produto */
+.specs{ display:flex; flex-wrap:wrap; gap:12px; margin:4px 0 4px; }
+.specs span{ background:rgba(255,210,63,.14); border:1px solid rgba(255,210,63,.55);
+  color:var(--gold1); font-weight:700; font-size:22px; padding:6px 16px; border-radius:30px; }
+/* destaque "pra comprar um similar" */
+.dica{ margin-top:16px; font-size:24px; line-height:1.32; color:#eaeaea;
+  border-left:5px solid var(--gold1); padding:9px 0 9px 16px; background:rgba(255,210,63,.06); }
+.dica b{ color:var(--gold1); }
 .reveal .conteudo p.def{ font-size:29px; line-height:1.38; color:var(--txt); margin:0; }
 .reveal .conteudo ul{ list-style:none; margin:0; }
 .reveal .conteudo li{ font-size:28px; line-height:1.35; color:var(--txt);
